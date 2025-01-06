@@ -14,9 +14,8 @@ public class Task {
     private String title;
     private String description;
 
-    private boolean completed;  // This is the new field for tracking task completion
+    private boolean completed; 
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
